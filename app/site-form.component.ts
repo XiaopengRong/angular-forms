@@ -9,7 +9,7 @@ import { Site }    from './site';
 export class SiteFormComponent {
   urls = ['www.runoob.com', 'www.google.com',
             'www.taobao.com', 'www.facebook.com'];
-  model = new Site(1, '菜鸟教程', this.urls[0], 10000);
+  model = new Site(1, 'runoob', this.urls[0], 10000);
   submitted = false;
   onSubmit() { this.submitted = true; }
   // TODO: 完成后移除
